@@ -36,6 +36,35 @@ Run the training script to train the classifiers and select the best model.
 ```bash
 python train_models.py
 ```
+
+**Example Output:**
+```
+Loading dataset...
+Splitting dataset into training and testing sets...
+Training models...
+
+--- Random Forest ---
+Accuracy:  1.0000
+Precision: 1.0000
+Recall:    1.0000
+F1 Score:  1.0000
+
+--- XGBoost ---
+Accuracy:  1.0000
+Precision: 1.0000
+Recall:    1.0000
+F1 Score:  1.0000
+
+--- SVM ---
+Accuracy:  1.0000
+Precision: 1.0000
+Recall:    1.0000
+F1 Score:  1.0000
+
+Best Model based on F1 Score: Random Forest (F1: 1.0000)
+Saved the best model to best_model.pkl
+```
+
 This script will output the performance metrics for Random Forest, XGBoost, and SVM, and save the model with the highest F1 Score to `best_model.pkl`.
 
 ### 3. Predict a URL
@@ -60,3 +89,4 @@ The model relies on several features extracted directly from the URL string, suc
 - Protocol used (HTTP vs HTTPS)
 - Count of specific characters (`@`, `-`, `.`, `//`)
 - Presence of suspicious keywords often used in phishing (e.g., 'login', 'verify', 'update')
+
