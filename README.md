@@ -44,24 +44,24 @@ Splitting dataset into training and testing sets...
 Training models...
 
 --- Random Forest ---
-Accuracy:  1.0000
-Precision: 1.0000
-Recall:    1.0000
-F1 Score:  1.0000
+Accuracy:  0.9475
+Precision: 0.9754
+Recall:    0.9252
+F1 Score:  0.9496
 
 --- XGBoost ---
-Accuracy:  1.0000
-Precision: 1.0000
-Recall:    1.0000
-F1 Score:  1.0000
+Accuracy:  0.9475
+Precision: 0.9754
+Recall:    0.9252
+F1 Score:  0.9496
 
 --- SVM ---
-Accuracy:  1.0000
-Precision: 1.0000
-Recall:    1.0000
-F1 Score:  1.0000
+Accuracy:  0.8575
+Precision: 0.9198
+Recall:    0.8037
+F1 Score:  0.8579
 
-Best Model based on F1 Score: Random Forest (F1: 1.0000)
+Best Model based on F1 Score: Random Forest (F1: 0.9496)
 Saved the best model to best_model.pkl
 ```
 
